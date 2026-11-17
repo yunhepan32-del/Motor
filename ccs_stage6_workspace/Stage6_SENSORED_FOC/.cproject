@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+        <cconfiguration id="com.ti.ccstudio.buildDefinitions.C2000.Default.1656835230">
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.ti.ccstudio.buildDefinitions.C2000.Default.1656835230" moduleId="org.eclipse.cdt.core.settings" name="CPU1_SENSORED_FOC_RAM">
+                <macros>
+                    <stringMacro name="C2000WARE_LIBS_ROOT" type="VALUE_PATH_ANY" value="${COM_TI_MOTOR_CONTROL_C2000WARE_SDK_SOFTWARE_PACKAGE_INSTALL_DIR}/c2000ware/libraries/"/>
+                    <stringMacro name="SDK_ROOT" type="VALUE_PATH_ANY" value="${COM_TI_MOTOR_CONTROL_C2000WARE_SDK_SOFTWARE_PACKAGE_INSTALL_DIR}"/>
+                    <stringMacro name="PROJ_ROOT" type="VALUE_PATH_ANY" value="${COM_TI_MOTOR_CONTROL_C2000WARE_SDK_SOFTWARE_PACKAGE_INSTALL_DIR}/solutions/universal_motorcontrol_lab"/>
+                    <stringMacro name="C2000WARE_DLIB_ROOT" type="VALUE_PATH_ANY" value="${COM_TI_MOTOR_CONTROL_C2000WARE_SDK_SOFTWARE_PACKAGE_INSTALL_DIR}/c2000ware/driverlib/f28003x/driverlib"/>
+                    <stringMacro name="C2000WARE_ROOT" type="VALUE_PATH_ANY" value="${COM_TI_MOTOR_CONTROL_C2000WARE_SDK_SOFTWARE_PACKAGE_INSTALL_DIR}/c2000ware/"/>
+                    <stringMacro name="C2000WARE_DEVICE_SUPPORT_ROOT" type="VALUE_PATH_ANY" value="${COM_TI_MOTOR_CONTROL_C2000WARE_SDK_SOFTWARE_PACKAGE_INSTALL_DIR}/c2000ware/device_support/f28003x"/>
+                </macros>
+                <externalSettings/>
+                <extensions>
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="com.ti.ccs.project.ErrorParser"/>
+                    <extension id="com.ti.ccs.errorparser.SysConfigErrorParser" point="com.ti.ccs.project.ErrorParser"/>
+                    <extension id="com.ti.ccs.errorparser.CompilerErrorParser_TI" point="com.ti.ccs.project.ErrorParser"/>
+                </extensions>
+            </storageModule>
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                <configuration artifactExtension="out" artifactName="${ProjName}" buildProperties="" cleanCommand="${CG_CLEAN_CMD}" description="" id="com.ti.ccstudio.buildDefinitions.C2000.Default.1656835230" name="CPU1_SENSORED_FOC_RAM" parent="com.ti.ccstudio.buildDefinitions.C2000.Default">
+                    <folderInfo id="com.ti.ccstudio.buildDefinitions.C2000.Default.1656835230." name="/" resourcePath="">
+                        <toolChain id="com.ti.ccstudio.buildDefinitions.C2000_25.11.exe.DebugToolchain.576003525" name="TI Build Tools" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.exe.DebugToolchain" targetTool="com.ti.ccstudio.buildDefinitions.C2000_25.11.exe.linkerDebug.491203156">
+                            <option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1781350633" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+                                <listOptionValue value="DEVICE_CONFIGURATION_ID=TMS320C28XX.TMS320F280039C"/>
+                                <listOptionValue value="DEVICE_CORE_ID="/>
+                                <listOptionValue value="DEVICE_ENDIANNESS=little"/>
+                                <listOptionValue value="OUTPUT_FORMAT=ELF"/>
+                                <listOptionValue value="CCS_MBS_VERSION=70.0.0"/>
+                                <listOptionValue value="RUNTIME_SUPPORT_LIBRARY=libc.a"/>
+                                <listOptionValue value="OUTPUT_TYPE=executable"/>
+                                <listOptionValue value="PRODUCTS=motor_control_c2000ware_sdk_software_package:5.4.0.00;"/>
+                                <listOptionValue value="PRODUCT_MACRO_IMPORTS={&quot;motor_control_c2000ware_sdk_software_package&quot;:[&quot;${COM_TI_MOTOR_CONTROL_C2000WARE_SDK_SOFTWARE_PACKAGE_INCLUDE_PATH}&quot;,&quot;${COM_TI_MOTOR_CONTROL_C2000WARE_SDK_SOFTWARE_PACKAGE_LIBRARY_PATH}&quot;,&quot;${COM_TI_MOTOR_CONTROL_C2000WARE_SDK_SOFTWARE_PACKAGE_LIBRARIES}&quot;,&quot;${COM_TI_MOTOR_CONTROL_C2000WARE_SDK_SOFTWARE_PACKAGE_SYMBOLS}&quot;,&quot;${COM_TI_MOTOR_CONTROL_C2000WARE_SDK_SOFTWARE_PACKAGE_SYSCONFIG_MANIFEST}&quot;]}"/>
+                            </option>
+                            <option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.1996008277" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="25.11.1.LTS" valueType="string"/>
+                            <targetPlatform id="com.ti.ccstudio.buildDefinitions.C2000_25.11.exe.targetPlatformDebug.1845807383" name="Platform" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.exe.targetPlatformDebug"/>
+                            <builder buildPath="${BuildDirectory}" id="com.ti.ccstudio.buildDefinitions.C2000_25.11.exe.builderDebug.1024499332" keepEnvironmentInBuildfile="false" name="GNU Make" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.exe.builderDebug"/>
+                            <tool id="com.ti.ccstudio.buildDefinitions.C2000_25.11.exe.compilerDebug.1969447112" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.exe.compilerDebug">
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.OTHER_FLAGS.26111602" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.OTHER_FLAGS" valueType="stringList">
+                                    <listOptionValue value="--fp_reassoc=off"/>
+                                </option>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.LARGE_MEMORY_MODEL.2042317612" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.LARGE_MEMORY_MODEL" value="true" valueType="boolean"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.UNIFIED_MEMORY.1768427757" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.UNIFIED_MEMORY" value="true" valueType="boolean"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.SILICON_VERSION.1659525217" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.SILICON_VERSION" value="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.SILICON_VERSION.28" valueType="enumerated"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.FLOAT_SUPPORT.535876832" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.FLOAT_SUPPORT" value="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.FLOAT_SUPPORT.fpu32" valueType="enumerated"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.CLA_SUPPORT.464024165" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.CLA_SUPPORT" value="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.CLA_SUPPORT.cla2" valueType="enumerated"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.VCU_SUPPORT.1764821009" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.VCU_SUPPORT" value="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.VCU_SUPPORT.vcrc" valueType="enumerated"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.TMU_SUPPORT.2069256782" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.TMU_SUPPORT" value="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.TMU_SUPPORT.tmu1" valueType="enumerated"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.GEN_FUNC_SUBSECTIONS.759972814" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.GEN_FUNC_SUBSECTIONS" value="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.GEN_FUNC_SUBSECTIONS.on" valueType="enumerated"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.DISPLAY_ERROR_NUMBER.1406569571" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.DISPLAY_ERROR_NUMBER" value="true" valueType="boolean"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.DIAG_WARNING.1514943696" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.DIAG_WARNING" valueType="stringList">
+                                    <listOptionValue value="225"/>
+                                </option>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.DIAG_WRAP.2025792187" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.DIAG_WRAP" value="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.DIAG_WRAP.off" valueType="enumerated"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.INCLUDE_PATH.750599626" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.INCLUDE_PATH" valueType="includePath">
+                                    <listOptionValue value="${COM_TI_MOTOR_CONTROL_C2000WARE_SDK_SOFTWARE_PACKAGE_INCLUDE_PATH}"/>
+                                    <listOptionValue value="${PROJECT_ROOT}"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/control/pi"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/control/fwc"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/control/mtpa"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/control/vs_freq"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/control/dclink_ss"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/filter/filter_fo"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/observers/est_lib"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/observers/esmo"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/observers/speedfr"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/observers/speedcalc"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/observers/ssipd"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/observers/isbldc"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/observers/encoder"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/observers/hall"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/transforms/clarke"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/transforms/ipark"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/transforms/park"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/transforms/svgen"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/transforms/volts"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/utilities/angle_gen"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/utilities/cpu_time"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/utilities/datalog"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/utilities/step_response"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/utilities/traj/"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/utilities/rimpulse"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/utilities/mod6cnt"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/utilities/types/include"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/sfra"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/dacs/dac128s085"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/src_control"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/src_control/common/include"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/src_control/drivers/include"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/src_board"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/src_device"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/src_device/device_support/headers/include"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/src_device/driverlib"/>
+                                    <listOptionValue value="${CG_TOOL_ROOT}/include"/>
+                                </option>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.ABI.834185639" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.ABI" value="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.ABI.eabi" valueType="enumerated"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.IDIV_SUPPORT.886033528" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.IDIV_SUPPORT" value="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.IDIV_SUPPORT.idiv0" valueType="enumerated"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.OPT_LEVEL.195835636" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.OPT_LEVEL" value="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.OPT_LEVEL.2" valueType="enumerated"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.OPT_FOR_SPEED.519356827" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.OPT_FOR_SPEED" value="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.OPT_FOR_SPEED.3" valueType="enumerated"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.FP_MODE.1631655346" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.FP_MODE" value="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.FP_MODE.strict" valueType="enumerated"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.DEFINE.970859694" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.DEFINE" valueType="definedSymbols">
+                                    <listOptionValue value="${COM_TI_MOTOR_CONTROL_C2000WARE_SDK_SOFTWARE_PACKAGE_SYMBOLS}"/>
+                                    <listOptionValue value="_INLINE"/>
+                                    <listOptionValue value="WILDFIRE_LOCKED"/>
+                                    <listOptionValue value="_F28003x"/>
+                                    <listOptionValue value="_FULL_FAST_LIB"/>
+                                    <listOptionValue value="BSXL8323RH_REVB"/>
+                                    <listOptionValue value="MOTOR1_FAST_N"/>
+                                    <listOptionValue value="MOTOR1_ESMO_N"/>
+                                    <listOptionValue value="MOTOR1_ENC_N"/>
+                                    <listOptionValue value="MOTOR1_HALL_N"/>
+                                    <listOptionValue value="HALL_CAL_N"/>
+                                    <listOptionValue value="MOTOR1_OVM_N"/>
+                                    <listOptionValue value="MOTOR1_FWC_N"/>
+                                    <listOptionValue value="MOTOR1_MTPA_N"/>
+                                    <listOptionValue value="MOTOR1_SSIPD_N"/>
+                                    <listOptionValue value="MOTOR1_VOLRECT_N"/>
+                                    <listOptionValue value="DATALOGF2_EN_N"/>
+                                    <listOptionValue value="DAC128S_ENABLE_N"/>
+                                    <listOptionValue value="DAC128S_SPIB_N"/>
+                                    <listOptionValue value="CPUTIME_ENABLE_N"/>
+                                    <listOptionValue value="TEST_ENABLE_N"/>
+                                    <listOptionValue value="SFRA_ENABLE_N"/>
+                                    <listOptionValue value="STEP_RP_EN_N"/>
+                                    <listOptionValue value="CMD_POT_EN_N"/>
+                                    <listOptionValue value="CMD_CAP_EN_N"/>
+                                    <listOptionValue value="CMD_SWITCH_EN_N"/>
+                                    <listOptionValue value="CMD_CAN_EN_N"/>
+                                </option>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.DIAG_SUPPRESS.307376206" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.compilerID.DIAG_SUPPRESS" valueType="stringList">
+                                    <listOptionValue value="10063"/>
+                                </option>
+                            </tool>
+                            <tool id="com.ti.ccstudio.buildDefinitions.C2000_25.11.exe.linkerDebug.491203156" name="C2000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.exe.linkerDebug">
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.STACK_SIZE.1671175930" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.STACK_SIZE" value="0x2D8" valueType="string"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.OUTPUT_FILE.201498571" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.OUTPUT_FILE" value="${ProjName}.out" valueType="string"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.MAP_FILE.1710124962" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.MAP_FILE" value="${ProjName}.map" valueType="string"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.XML_LINK_INFO.528052219" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.XML_LINK_INFO" value="${ProjName}_linkInfo.xml" valueType="string"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.DISPLAY_ERROR_NUMBER.1380623313" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.DISPLAY_ERROR_NUMBER" value="true" valueType="boolean"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.DIAG_WRAP.1024776646" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.DIAG_WRAP" value="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.DIAG_WRAP.off" valueType="enumerated"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.SEARCH_PATH.348383127" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.SEARCH_PATH" valueType="libPaths">
+                                    <listOptionValue value="${COM_TI_MOTOR_CONTROL_C2000WARE_SDK_SOFTWARE_PACKAGE_LIBRARY_PATH}"/>
+                                    <listOptionValue value="${CG_TOOL_ROOT}/lib"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/sfra"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/observers/est_lib"/>
+                                    <listOptionValue value="${CG_TOOL_ROOT}/include"/>
+                                </option>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.LIBRARY.1204277241" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.LIBRARY" valueType="libs">
+                                    <listOptionValue value="${COM_TI_MOTOR_CONTROL_C2000WARE_SDK_SOFTWARE_PACKAGE_LIBRARIES}"/>
+                                    <listOptionValue value="libc.a"/>
+                                </option>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.ENTRY_POINT.417138803" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.ENTRY_POINT" value="code_start" valueType="string"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.DEFINE.2135876436" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.linkerID.DEFINE" valueType="definedSymbols">
+                                    <listOptionValue value="SFRA_ENABLE_N"/>
+                                </option>
+                            </tool>
+                            <tool id="com.ti.ccstudio.buildDefinitions.C2000_25.11.hex.1240625763" name="C2000 Hex Utility" superClass="com.ti.ccstudio.buildDefinitions.C2000_25.11.hex"/>
+                            <tool id="com.ti.ccstudio.buildDefinitions.sysConfig.368897436" name="SysConfig" superClass="com.ti.ccstudio.buildDefinitions.sysConfig">
+                                <option id="com.ti.ccstudio.buildDefinitions.sysConfig.PRODUCTS.265413209" superClass="com.ti.ccstudio.buildDefinitions.sysConfig.PRODUCTS" valueType="stringList">
+                                    <listOptionValue value="${COM_TI_MOTOR_CONTROL_C2000WARE_SDK_SOFTWARE_PACKAGE_SYSCONFIG_MANIFEST}"/>
+                                </option>
+                            </tool>
+                        </toolChain>
+                    </folderInfo>
+                    <sourceEntries>
+                        <entry excluding="target_review_only|libraries/control/mtpa|libraries/control/fwc|libraries/control/vs_freq|libraries/control/dclink_ss|libraries/filter|libraries/transforms/volts|libraries/transforms/svgen/svgen_current.c|src_control|src_board|libraries/observers|libraries/utilities|libraries/dacs|libraries/sfra|src_device/device_support/headers/include|src_control/common/debug|src_control/drivers/include/hal_obj.h|src_control/drivers/include/hal_data.h|src_control/common/include/pwmdac.h|src_control/common/include/user.h|src_control/common/include/user_common.h|libraries/observers/est_lib/fast_simple_lib_eabi.lib|libraries/observers/est_lib/fast_simple_lib_coff.lib|libraries/observers/est_lib/fast_simple_lib.lib|libraries/observers/est_lib/fast_pmsm_lib_eabi.lib|libraries/observers/est_lib/fast_pmsm_lib_coff.lib|libraries/observers/est_lib/fast_pmsm_lib.lib|libraries/observers/est_lib/fast_full_lib_eabi.lib|libraries/observers/est_lib/fast_full_lib_coff.lib|src_device/driverlib|src_board/drvic/drv8316s.h|src_board/drvic/drv8316s.c|src_board/drvic/drv8353s.h|src_board/drvic/drv8353s.c|src_board/drvic/drv8323s.h|src_board/drvic/drv8323s.c|TMS320F280039C.ccxml|src_device/f28003x_flash_lib_is.cmd|libraries/observers/est_lib/fast_full_lib.lib" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                    </sourceEntries>
+                </configuration>
+            </storageModule>
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+        </cconfiguration>
+    </storageModule>
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+        <project id="Stage6_SENSORED_FOC.com.ti.ccstudio.buildDefinitions.C2000.ProjectType.1518882903" name="C2000" projectType="com.ti.ccstudio.buildDefinitions.C2000.ProjectType"/>
+    </storageModule>
+</cproject>
