@@ -1,0 +1,88 @@
+{
+  "schema": 2,
+  "profile_id": "S6_R02_26111701_UNQUALIFIED",
+  "hardware": "EBF410194V1R2+LAUNCHXL-F280039C",
+  "interface_review": {
+    "status": "PENDING",
+    "reviewer": null,
+    "record": null
+  },
+  "zero_current_review": {
+    "status": "PENDING",
+    "reviewer": null,
+    "record": null
+  },
+  "channels": {
+    "IU": {
+      "review_status": "PENDING",
+      "experiment": null,
+      "raw_sources": [],
+      "instrument": null,
+      "conditions": null,
+      "reviewer": null,
+      "gain": null,
+      "zero_count": null,
+      "verified_range": null,
+      "holdout_verified": false,
+      "gain_polarity_verified": false
+    },
+    "IV": {
+      "review_status": "PENDING",
+      "experiment": null,
+      "raw_sources": [],
+      "instrument": null,
+      "conditions": null,
+      "reviewer": null,
+      "gain": null,
+      "zero_count": null,
+      "verified_range": null,
+      "holdout_verified": false,
+      "gain_polarity_verified": false
+    },
+    "IW": {
+      "review_status": "PENDING",
+      "experiment": null,
+      "raw_sources": [],
+      "instrument": null,
+      "conditions": null,
+      "reviewer": null,
+      "gain": null,
+      "zero_count": null,
+      "verified_range": null,
+      "holdout_verified": false,
+      "gain_polarity_verified": false
+    },
+    "VBUS": {
+      "review_status": "PENDING",
+      "experiment": null,
+      "raw_sources": [],
+      "instrument": null,
+      "conditions": null,
+      "reviewer": null,
+      "gain": null,
+      "zero_count": null,
+      "verified_range": null,
+      "holdout_verified": false,
+      "gain_polarity_verified": false
+    }
+  },
+  "encoder": {
+    "cpr_reference": 4000,
+    "pole_pairs_reference": 4,
+    "direction": null,
+    "magnetic_zero": null,
+    "session": null,
+    "review_status": "PENDING"
+  },
+  "historic_observations": {
+    "raw02_snapshot_means": [
+      2048.375,
+      2043.8125,
+      2046.4375,
+      2821.25
+    ],
+    "role": "OBSERVATION_ONLY_NOT_CALIBRATION",
+    "load_evidence_incomplete": true
+  },
+  "approval_policy": "Offline source record + synchronized instrument + raw SHA256 + independent holdout + explicit review. No WATCH evidence writes."
+}
